@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing</title>
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/iconfont.css">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/sign.css">
+    <link rel="stylesheet" href="style/billing.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+
+            <!-- Modal -->
+            <div class="payment__method" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content modalAdd ">
+                        <div class="modal-header">
+                            <h5 class="modal-title pay__title" id="exampleModalLabel1">Project 1</h5>
+                        </div>
+                        <div class="modal-body position-relative">
+                            <div class="d-flex flex-column">
+                                <label for="formGroupExampleInput" class="form-label">PAYMENTH METHOD</label>
+                                <div class="form-floating">
+                                    <select class="form-select position-relative" id="floatingSelect" aria-label="Floating label select example">
+                                      <option selected>.... .... .... 1234</option>
+                                      <option value="1">.... .... .... 4567</option>
+                                      <option value="2">.... .... .... 8910</option>
+                                      <option value="3">.... .... .... 1112</option>
+                                    </select>
+                                    <label for="floatingSelect"><img src="images/visa-1.webp" alt="visaCard" class="position-absolute"></label>
+                                </div>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between payment__footer">
+                                <button type="button" class="btn btn-secondary cancel__btn" data-bs-dismiss="modal">Cancel</button>
+                                <a href="billing__success.html" type="button" class="button-primary add__btn pay__btn">Pay</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

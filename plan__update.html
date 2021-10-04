@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing</title>
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/iconfont.css">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/sign.css">
+    <link rel="stylesheet" href="style/billing.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Modal -->
+            <div class="plan__update" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content billing__content">
+                        <div class="modal-header">
+                            <h5 class="modal-title billing__title" id="exampleModalLabel">Project 1</h5>
+                        </div>
+
+                        <div class="modal-body billing__body bg update__bg d-flex justify-content-between align-items-center">
+                            <div class="plan__update d-flex flex-column justify-content-center">
+                                <h5>Plan subscription update</h5>
+                                <span>Per month</span>
+                            </div>
+                            <div class="form-floating d-flex align-items-center update__price">
+                                <p>$4,99 + <span class="color__green">$1,99</span></p>
+                            </div>
+                        </div>
+
+                        <div class="modal-body billing__body d-flex justify-content-between align-items-center">
+                            <label class="total__title">Total</label>
+                            <div class="form-floating d-flex align-items-center position-relative update__price">
+                                <span class="color__green total__update">$6,98</span>
+                            </div>
+                        </div>
+
+                        <p class="update__par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur tellus euismod amet, quis. Velit interdum tortor hendrerit hendrerit. Feugiat mauris ultrices facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Consectetur tellus euismod amet, quis. Velit interdum tortor hendrerit hendrerit. Feugiat mauris ultrices facilisis </p>
+                        <div class="billing__footer d-flex justify-content-between align-items-center update__btns">
+                            <button type="button" class="billing__btn-cancel" data-bs-dismiss="modal">Cancel</button>
+                            <a href="plan__update-2.html" type="button" class="billing__btn-next">Approve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="libs/bootstrap.min.js"></script>
+</body>
+
+</html>
